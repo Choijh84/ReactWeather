@@ -13,6 +13,6 @@ ReactDOM.render(
       <Route path="examples" component={Examples}/>
       <IndexRoute component={Weather}/>
     </Route>
-  </Router>
+  </Router>,
   document.getElementById('app')
 );
