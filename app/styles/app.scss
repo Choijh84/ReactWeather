@@ -1,8 +1,10 @@
 $space-large: 2.5rem;
 $title-color: #555;
+$font-stack: Helvetica, sans-serif;
 
 
 .page-title {
+  font: $font-stack;
   color: $title-color;
   margin-top: $space-large;
   margin-bottom: $space-large;
